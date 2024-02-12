@@ -143,6 +143,7 @@ ul{
 .hero {
   background-image: url('/Green and Pink Neon Architect Site Desktop Prototype (1).png');
   height: 500px;
+  width: 100%;
   background-size: cover;
   display: flex;
   flex-direction: column;
