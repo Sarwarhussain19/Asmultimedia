@@ -153,9 +153,9 @@ ul{
   color: #fff;
   padding: 0 20px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
                 .hero {
-                    height: 41vh;
+                    height: 38vh;
                 }
             }
         
