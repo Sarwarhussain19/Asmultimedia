@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--white);
+    background-color: #12192C;
     font-family: "Poppins", sans-serif;
 }
 a{
@@ -196,6 +196,7 @@ ul{
 
 h1 {
 	text-align: center;
+	color: #FFFFFF;
 }
 
 .portfolio-container {
@@ -225,7 +226,8 @@ h1 {
 .portfolio-card h2 {
 	font-size: 24px;
 	margin-bottom: 10px;
-	color:aliceblue;
+	color:#fff;
+	
 }
 
 .portfolio-card p {
@@ -241,7 +243,7 @@ h1 {
 	display: block;
 	width: var(--size);
 	height: calc(var(--size) * 1.44);
-	background-color: #333;
+	background-color: #FFFFFF;
 	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   }
   .credit a {
@@ -299,7 +301,7 @@ margin:50px auto
 .content span{
     height: 0.5px;
     width: 80px;
-    background: #777;
+    background: #FFFFFF;
     margin: 30px 0;
 }
 .content p{
@@ -329,13 +331,13 @@ margin:50px auto
     text-decoration: none;
 }
 .links li:hover{
-    border-color: #C850C0;
+    border-color: #290286;
 }
 
 .vertical-line{
     height: 30px;
     width: 3px;
-    background: #C850C0;
+    background: #3101BD;
     margin: 0 auto;
 }
 .icons{
@@ -416,13 +418,13 @@ margin:50px auto
 }
 .credit{
     text-align: center;
-    color: #000;
+    color: #FFFFFF;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .credit a{
     text-decoration: none;
-    color:#000;
+    color:#FFFFFF;
     font-weight: bold;
   } 
 
@@ -441,6 +443,7 @@ margin:50px auto
   font-size: 52px;
   margin-bottom: 60px;
   text-align: center;
+  color: #ffffff;
 }
 
 .team {
@@ -472,7 +475,7 @@ margin:50px auto
 }
 
 .team .team_member p.role {
-  color: #000000;
+  color: #FFFBFB;
   margin: 12px 0;
   font-size: 13px;
   font-weight: bold;
@@ -501,13 +504,13 @@ margin:50px auto
 
 .credit {
   text-align: center;
-  color: #000000;
+  color: #FFFFFF;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .credit a {
   text-decoration: none;
-  color: #000;
+  color: #FFFFFF;
   font-weight: bold;
 }
 /* slider */
