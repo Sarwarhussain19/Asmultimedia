@@ -19,6 +19,7 @@ body{
 }
 a{
     text-decoration: none;
+    font-size: 1.5rem;
 }
 ul{
     list-style: none;
@@ -984,3 +985,27 @@ textarea {
   text-align: center;
 }
 
+.about{
+display: flex;
+justify-content: center;
+width:100%;
+text-align: center;
+flex-wrap: wrap;
+background-color: transparent;
+align-content: center;
+}
+
+.about h1{
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about p{ 
+  
+  background: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: Arial;
+  
+  
+}  
