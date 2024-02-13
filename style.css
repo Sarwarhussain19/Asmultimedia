@@ -231,7 +231,7 @@ h1 {
 	width: 250px;
 	border-radius:50%;
 	margin-bottom: 20px;
-	box-shadow: #f64f59 0px 0px 0px 3px, #c471ed 0px 0px 0px 6px, #c471ed 0px 0px 0px 9px;
+	box-shadow: #F297A3 0px 0px 0px 3px, #F297A3 0px 0px 0px 6px, #F297A3 0px 0px 0px 9px;
 }
 
 .portfolio-card h2 {
@@ -473,7 +473,7 @@ margin:50px auto
   width: 300px;
   padding: 20px;
   line-height: 20px;
-  color: #8e8b8b;
+  color: #000000;
   position: relative;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -501,8 +501,8 @@ margin:50px auto
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #fff;
-  border: 5px solid orange;
+  background: #FFFFFF;
+  border: 5px salmon ;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -1019,3 +1019,22 @@ align-content: center;
   
   
 }  
+
+.ourcard {
+  background-image: url('/Orange and Black Professional Visiting Card (3).png');
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+@media (max-width: 1500px) {
+                .ourcard {
+                    height: 38vh;
+                }
+            }
