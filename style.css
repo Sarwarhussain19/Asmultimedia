@@ -165,6 +165,44 @@ ul{
   margin-bottom: 20px;
 }
 
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .hero {
+    height: 300px; /* Adjust height for smaller screens */
+  }
+
+  .hero-text {
+    font-size: 28px; /* Adjust text size for smaller screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    height: 250px; /* Adjust height for smaller screens */
+  }
+
+  .hero{
+    font-size: 24px; /* Adjust text size for smaller: screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 200px; /* Adjust height for smaller screens */
+  }
+
+  .hero{
+    font-size: 20px; /* Adjust text size for smaller screens */
+  }
+}
+
+
+
+
+
+
 .hero p {
   font-size: 3rem;
   margin-bottom: 30px;
