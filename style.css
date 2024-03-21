@@ -1076,3 +1076,29 @@ align-content: center;
                     height: 38vh;
                 }
             }
+            
+            
+            
+            /* Responsive Styles */
+@media (max-width: 1200px) {
+  .ourcard {
+    height: 300px; /* Adjust height for smaller screens */
+  }
+
+  
+}
+
+@media (max-width: 992px) {
+  .ourcard {
+    height: 250px; /* Adjust height for smaller screens */
+  }
+
+}
+
+@media (max-width: 768px) {
+  .ourcard {
+    height: 200px; /* Adjust height for smaller screens */
+  }
+
+
+}
