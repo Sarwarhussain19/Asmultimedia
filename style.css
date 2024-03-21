@@ -170,7 +170,7 @@ ul{
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .hero {
-    height: 1200px; /* Adjust height for smaller screens */
+    height: 50vh; /* Adjust height for smaller screens */
   }
 
   .hero-text {
